@@ -32,7 +32,7 @@ BackgroundBox .button:active {
     border-radius: 0;
     background-color: @button_bg_color;
     background-image: none;
-    color: @theme_base_color;
+    color: shade(@theme_text_color, 1.10);/*shade(@theme_base_color, 1.2);*/
 
     border-bottom: solid 1px alpha (black, 0.1);
     box-shadow: 0 1px alpha (black, 0.05);
