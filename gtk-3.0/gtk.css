@@ -2,14 +2,16 @@
 <select><option> => combobox.css
  */
 
+/** old background: #35383F new background: #1c1c1c */
+
 /* default color scheme */
-@define-color bg_color #35383F/*#f4f5f6*/;
+@define-color bg_color #1c1c1c/*#f4f5f6*/;
 @define-color fg_color #E1E2E4;/*#FD5370;*//*#3f454f;*/
-@define-color base_color shade(#35383F, 1.2);/*#ffffff;*/
+@define-color base_color #333333;/*shade(#1c1c1c, 1.2);*//*#ffffff;*/
 @define-color text_color #E1E2E4;/*#3f454f;*/
 @define-color selected_bg_color transparent;
 @define-color selected_fg_color #fb4757;/*#b5b2b2;*//*#fb4757;*/
-@define-color tooltip_bg_color #35383F;/*#fefefe;*/
+@define-color tooltip_bg_color #1c1c1c;/*#fefefe;*/
 @define-color tooltip_fg_color @fg_color;/*#fefefe;*//*#2d2d2d;*/
 
 /* colormap actually used by the theme, to be overridden in other css files */
@@ -46,10 +48,10 @@
 @define-color destructive_color mix (mix (#db523c, #f00, 0.5), #888, 0.2);
 
 /* widget colors */
-@define-color button_bg_color #41464f;
-@define-color combobox_bg_color #41464f;/*#f6f6f6;*/
+@define-color button_bg_color #333;/*#41464f;*/
+@define-color combobox_bg_color #333;/*#41464f;*//*#f6f6f6;*/
 
-@define-color menubar_bg_color #2e3237;
+@define-color menubar_bg_color #333;
 @define-color menubar_fg_color #ebebeb;
 @define-color toolbar_bg_color @theme_bg_color;
 @define-color toolbar_fg_color @theme_text_color;
@@ -58,6 +60,7 @@
 @define-color panel_bg_color #222222;
 @define-color panel_fg_color #f2f2f2;
 @define-color menu_selected_fg_color #fb4757;
+@define-color menu_selected_bg_color #272727;
 
 /* osd */
 @define-color osd_base #fafafa;

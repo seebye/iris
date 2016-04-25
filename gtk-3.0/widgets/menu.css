@@ -78,6 +78,7 @@ GtkComboBox .menu {
 
 .menubar .menuitem *:hover {
     color: @menu_selected_fg_color;
+    background: @menu_selected_bg_color;
 }
 
 /************
@@ -111,6 +112,7 @@ GtkTreeMenu .menuitem {
     background-color: transparent;
     border-radius: 0;
     color: @menu_selected_fg_color;
+    background: @menu_selected_bg_color;
     background-image: none;
     box-shadow: none;
 }
@@ -122,6 +124,7 @@ GtkTreeMenu .menuitem {
     transition: 100ms linear;
     background-color: transparent;
     color: @menu_selected_fg_color;
+    background: @menu_selected_bg_color;
 }
 
 .menu .menuitem:insensitive,
