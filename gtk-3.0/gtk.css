@@ -10,7 +10,8 @@
 @define-color base_color #333333;/*shade(#1c1c1c, 1.2);*//*#ffffff;*/
 @define-color text_color #E1E2E4;/*#3f454f;*/
 @define-color selected_bg_color transparent;
-@define-color selected_fg_color #fb4757;/*#b5b2b2;*//*#fb4757;*/
+/*@define-color selected_fg_color #fb4757;/*#b5b2b2;*//*#fb4757;*/
+@define-color selected_fg_color #fe7457;/*#b5b2b2;*//*#fb4757;*/
 @define-color tooltip_bg_color #1c1c1c;/*#fefefe;*/
 @define-color tooltip_fg_color @fg_color;/*#fefefe;*//*#2d2d2d;*/
 
@@ -44,7 +45,8 @@
 
 @define-color light_grey #d0d0d1;
 
-@define-color confirmation_color #2fbb77;
+/*@define-color confirmation_color #2fbb77;*/
+@define-color confirmation_color #fe7457;
 @define-color destructive_color mix (mix (#db523c, #f00, 0.5), #888, 0.2);
 
 /* widget colors */
@@ -59,7 +61,7 @@
 @define-color menu_fg_color #E1E2E4;/*shade(@menubar_bg_color, 2.5);*//*@theme_bg_color;*/
 @define-color panel_bg_color #222222;
 @define-color panel_fg_color #f2f2f2;
-@define-color menu_selected_fg_color #fb4757;
+@define-color menu_selected_fg_color @selected_fg_color; /*#fb4757;*/
 @define-color menu_selected_bg_color #272727;
 
 /* osd */
